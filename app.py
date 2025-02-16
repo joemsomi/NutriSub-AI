@@ -15,7 +15,7 @@ ingredient_substitutes = {
 }
 # Home route (renders input form)
 
-app.route('/')
+@app.route('/')
 def home():
     return render_template('home.html')
 
@@ -28,6 +28,6 @@ def substitute():
 
 # Run the app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
     # Main Flask app
 
