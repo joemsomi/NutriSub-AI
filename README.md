@@ -1,5 +1,4 @@
-# Food-Ingredient-Substituter
-Repo for my Food Ingredient Substituter Project
+
 # 🍏 Food Ingredient Substituter AI
 
 ## 📌 Project Description
