@@ -16,6 +16,8 @@ This project is an AI-powered tool that suggests **healthier alternatives** for 
 - **FuzzyWuzzy** (AI-powered text matching)
 - **Git & GitHub** (Version control)
 
+This project was initially prototyped in Jupyter Notebook before being fully developed into a Flask application.
+
 ##  Installation Guide
 1. **Clone the repository**:
    ```bash
