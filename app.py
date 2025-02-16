@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 
+#MAY USE LATER FOR WEB UI VERSION
+
 app = Flask(__name__)
 # Dictionary of ingredient substitutions
 ingredient_substitutes = {
