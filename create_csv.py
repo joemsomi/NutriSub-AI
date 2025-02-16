@@ -4,13 +4,13 @@ import pandas as pd
 data = {
     "Ingredient": [
         "sugar", "butter", "margarine", "salt", "white flour", "cream",
-        "mayonnaise", "vegetable oil", "sour cream", "white rice"
+        "mayonnaise", "vegetable oil", "sour cream", "white rice", "white bread", "pork bacon"
     ],
     "Healthier_Substitute": [
         "stevia or honey", "avocado or olive oil", "avocado or olive oil",
         "herbs or lemon juice", "almond flour or whole wheat flour",
         "Greek yogurt or coconut milk", "mashed avocado or Greek yogurt",
-        "coconut oil or avocado oil", "Greek yogurt", "brown rice or quinoa"
+        "coconut oil or avocado oil", "Greek yogurt", "brown rice or quinoa", "whole wheat or sourdough", "turkey bacon"
     ]
 }
 
