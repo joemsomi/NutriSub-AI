@@ -106,6 +106,6 @@ Want to improve the project? Feel free to fork it and submit a pull request!
 
 ## 📧 Contact 
 
-- GitHub: [joemsomi] (https://github.com/joemsomi) 
+- GitHub: [joemsomi](https://github.com/joemsomi) 
 
 - LinkedIn: [Joseph Msomi ](https://www.linkedin.com/in/josephmsomi) 
