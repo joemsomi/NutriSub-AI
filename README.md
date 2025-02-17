@@ -23,6 +23,7 @@ NutriSub AI is an AI-powered tool that suggests **healthier alternatives** for i
 
 ##  Technologies Used 
 
+
 - **Python** (Core logic) 
 
 - **Pandas** (Handling CSV data) 
@@ -105,8 +106,6 @@ Want to improve the project? Feel free to fork it and submit a pull request!
 
 ## 📧 Contact 
 
-- GitHub: [joemsomi] (https://github.com/joemsomi/NutriSub-AI.git 
-
-) 
+- GitHub: [joemsomi] (https://github.com/joemsomi/NutriSub-AI.git) 
 
 - LinkedIn: [Joseph Msomi ](https://www.linkedin.com/in/josephmsomi) 
