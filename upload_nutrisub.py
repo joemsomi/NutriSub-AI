@@ -3,7 +3,7 @@ import json
 
 # Initialize DynamoDB Resource
 dynamodb = boto3.resource("dynamodb", region_name="us-east-1")  # Change region if needed
-table_name = "NNutriSubAI"  # Correct table name
+table_name = "NutriSubAI"  # Correct table name
 table = dynamodb.Table(table_name)
 
 # Load the corrected JSON data
