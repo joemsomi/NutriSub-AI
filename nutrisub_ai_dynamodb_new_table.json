@@ -1,0 +1,442 @@
+{
+    "NutriSubAI": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "sugar"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "stevia"
+                            },
+                            {
+                                "S": "honey"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Sweeteners"
+                    },
+                    "Health_Benefits": {
+                        "S": "Lower calories, diabetic-friendly"
+                    },
+                    "Use_Case": {
+                        "S": "Best for baking and sweetening beverages"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Slightly floral, sweeter than sugar"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use \u00be cup of honey for 1 cup of sugar"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free, Yes Keto"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "butter"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "avocado"
+                            },
+                            {
+                                "S": "olive oil"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Fats & Oils"
+                    },
+                    "Health_Benefits": {
+                        "S": "Heart-healthier fats, less saturated fat"
+                    },
+                    "Use_Case": {
+                        "S": "Great for cooking, spreading, and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Creamy but neutral"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1 cup of avocado for 1 cup of butter"
+                    },
+                    "Diet_Suitability": {
+                        "S": "No Vegan, Yes Keto, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "margarine"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "avocado"
+                            },
+                            {
+                                "S": "olive oil"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Fats & Oils"
+                    },
+                    "Health_Benefits": {
+                        "S": "Heart-healthier fats, less trans fat"
+                    },
+                    "Use_Case": {
+                        "S": "Alternative for spreading and cooking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Mildly buttery, less creamy"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1 cup of avocado for 1 cup of margarine"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "salt"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "herbs"
+                            },
+                            {
+                                "S": "lemon juice"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Seasonings"
+                    },
+                    "Health_Benefits": {
+                        "S": "Reduces sodium intake, better blood pressure control"
+                    },
+                    "Use_Case": {
+                        "S": "Good for seasoning and flavor enhancement"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Less salty but adds depth"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use \u00bd tsp herbs for 1 tsp salt"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free, Yes Keto"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "white flour"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "almond flour"
+                            },
+                            {
+                                "S": "whole wheat flour"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Flour & Grains"
+                    },
+                    "Health_Benefits": {
+                        "S": "More fiber, lower glycemic index"
+                    },
+                    "Use_Case": {
+                        "S": "Used for baking and thickening sauces"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Nutty and slightly dense"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1 cup of almond flour for 1 cup of white flour"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, No Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "cream"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "Greek yogurt"
+                            },
+                            {
+                                "S": "coconut milk"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Other"
+                    },
+                    "Health_Benefits": {
+                        "S": "General health improvement"
+                    },
+                    "Use_Case": {
+                        "S": "General cooking and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Neutral or similar taste"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1:1 unless specified"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "mayonnaise"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "mashed avocado"
+                            },
+                            {
+                                "S": "Greek yogurt"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Other"
+                    },
+                    "Health_Benefits": {
+                        "S": "General health improvement"
+                    },
+                    "Use_Case": {
+                        "S": "General cooking and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Neutral or similar taste"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1:1 unless specified"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "vegetable oil"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "coconut oil"
+                            },
+                            {
+                                "S": "avocado oil"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Other"
+                    },
+                    "Health_Benefits": {
+                        "S": "General health improvement"
+                    },
+                    "Use_Case": {
+                        "S": "General cooking and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Neutral or similar taste"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1:1 unless specified"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "sour cream"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "Greek yogurt"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Other"
+                    },
+                    "Health_Benefits": {
+                        "S": "General health improvement"
+                    },
+                    "Use_Case": {
+                        "S": "General cooking and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Neutral or similar taste"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1:1 unless specified"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "white rice"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "brown rice"
+                            },
+                            {
+                                "S": "quinoa"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Other"
+                    },
+                    "Health_Benefits": {
+                        "S": "General health improvement"
+                    },
+                    "Use_Case": {
+                        "S": "General cooking and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Neutral or similar taste"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1:1 unless specified"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "white bread"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "whole wheat"
+                            },
+                            {
+                                "S": "sourdough"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Other"
+                    },
+                    "Health_Benefits": {
+                        "S": "General health improvement"
+                    },
+                    "Use_Case": {
+                        "S": "General cooking and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Neutral or similar taste"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1:1 unless specified"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "ingredient": {
+                        "S": "pork bacon"
+                    },
+                    "substitutions": {
+                        "L": [
+                            {
+                                "S": "turkey bacon"
+                            }
+                        ]
+                    },
+                    "Category": {
+                        "S": "Other"
+                    },
+                    "Health_Benefits": {
+                        "S": "General health improvement"
+                    },
+                    "Use_Case": {
+                        "S": "General cooking and baking"
+                    },
+                    "Flavor_Profile": {
+                        "S": "Neutral or similar taste"
+                    },
+                    "Conversion_Ratio": {
+                        "S": "Use 1:1 unless specified"
+                    },
+                    "Diet_Suitability": {
+                        "S": "Yes Vegan, Yes Gluten-Free"
+                    }
+                }
+            }
+        }
+    ]
+}
